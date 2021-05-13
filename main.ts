@@ -37,12 +37,12 @@ let sprite2 = sprites.create(img`
 for (let index = 0; index < 12; index++) {
     for (let index = 0; index < 1; index++) {
         sprite2.x += 5
-        pause(50)
+        pause(100)
         sprite2.y += 5
-        pause(50)
+        pause(100)
     }
     sprite.x += -5
-    pause(100)
+    pause(50)
     sprite.y += -5
-    pause(100)
+    pause(50)
 }
